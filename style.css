@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200;1,300&family=Raleway:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    border: 5px solid #03203C;
+    padding: 20px;
+    background-color: #03203C;
+    color: #ffffff;
+    border-radius: 20px;
+}
+.container form input{
+    padding: 5px 5px 5px 5px;
+}
+
+.headingAndInputbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.headingAndInputbox h1{
+    margin-bottom: 20px;
+}
+.headingAndInputbox form{
+    margin-bottom: 15px;
+}
+
+.placeInfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.weatherInfo{
+    margin: 30px 0 0 0;
+}
+
+.para{
+   padding-bottom: 10px;
+}
+
+
+.img img{
+    width: 36px;
+}
+
+.ptag{
+    display: flex;
+}
+.ptag p{
+    margin-left: 8px;
+}

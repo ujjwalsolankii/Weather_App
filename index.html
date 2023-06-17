@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+    <section class="container">
+        <div class="headingAndInputbox">
+            <h1>Weather App</h1>
+            <form action="#">
+                <input onsubmit="getData(event)" type="text" name="cityName" id="inputCityName" placeholder="Enter City Name">
+                <input type="button" value="Submit" id="submitBtn">
+            </form>
+        </div>
+
+        <div class="placeInfo">
+            <div class="countryName card">
+                <p class="para">Country Name</p>
+                <p id="countryName">_</p>
+            </div>
+
+            <div class="stateName card">
+                <p class="para">State Name</p>
+                <p id="stateName">_</p>
+            </div>
+
+            <div class="cityName card">
+                <p class="para">City Name</p>
+                <p id="cityName">_</p>
+            </div>
+        </div>
+
+        <div class="weatherInfo placeInfo">
+            <div class="humidity card">
+                <p class="para">Humidity</p>
+                <p id="humidity">_</p>
+            </div>
+
+            <div class="windSpeed card">
+                <p class="para">Wind Speed</p>
+                <div class="ptag"><p id="windSpeed">_ </p><p>KMPH</p></div>
+            </div>
+
+            <div class="temprature card">
+                <p class="para">Temprature</p>
+               <div class="ptag"> <p id="temprature">_ </p><span>&#8451;</span></div>
+            </div>
+
+            <div class="img card">
+                <img id="iconImg"  alt="icon" class="para">
+                <p id="iconText">_</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="./script.js" defer></script>
+
+</body>
+</html>
